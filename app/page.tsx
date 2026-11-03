@@ -27,7 +27,7 @@ export default function Home() {
           <div className="hero-copy">
             <div className="eyebrow"><span className="eyebrow-rule"/> SHOPIFY CRO · GRAPHIC DESIGN</div>
             <p className="hero-pretitle">A thoughtful approach to eCommerce growth.</p>
-            <h1>Make every<br/>store visit <em>count.</em></h1>
+            <h1>Shopify Conversion Rate Optimisation Expert <em>&amp; Graphic Designer.</em></h1>
             <p className="hero-description">
               I help Shopify businesses turn more visitors into customers through
               conversion-focused store experiences and purposeful graphics that
