@@ -1,6 +1,6 @@
 import { ArrowDown, ArrowUpRight, Check, Menu } from "lucide-react";
 
-const photoUrl = "https://raw.githubusercontent.com/dominica-commits/Dominica-Agency/main/profile.jpg.png";
+const photoUrl = "https://raw.githubusercontent.com/dominica-commits/Dominica-Agency/main/WhatsApp%20Image%202026-11-03%20at%2015.59.19.jpeg";
 
 export default function Home() {
   return (
