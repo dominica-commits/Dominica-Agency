@@ -127,3 +127,7 @@ html,body{background:#101010;color:#f7f3f1}
 .floating-note b{color:#fff}
 .portrait-card{background:#27201e}
 @media(max-width:640px){.focus-strip{grid-template-columns:1fr 1fr}.focus-item b{font-size:11px}}
+
+
+/* Gentle portrait enhancement for the newly uploaded original photo */
+.portrait{filter:brightness(1.22) contrast(1.06) saturate(1.04)}
