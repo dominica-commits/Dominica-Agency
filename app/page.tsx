@@ -74,7 +74,27 @@ export default function Home() {
         <div className="focus-divider"/>
         <div className="focus-item"><span>02</span><b>eCommerce Graphics</b><small>Make every visual work harder</small></div>
       </section>
-      <div id="approach" className="anchor-marker"/>
+      <section className="about-section" id="approach">
+        <div className="section-kicker"><span/> A LITTLE ABOUT MY WORK</div>
+        <div className="about-grid">
+          <div className="about-heading">
+            <p className="section-overline">THE PERSON BEHIND THE PROCESS</p>
+            <h2>Good design should do more than <em>look good.</em></h2>
+          </div>
+          <div className="about-copy">
+            <p className="about-lead">I’m Obiefuna Chinaecherem, a Shopify-focused creative who cares about what happens after someone lands on your store.</p>
+            <p>I bring together conversion thinking and visual design to help eCommerce businesses create clearer, more confident shopping experiences. My work starts with understanding the customer journey, spotting what may be getting in the way, and making thoughtful improvements.</p>
+            <p>Whether I’m reviewing a Shopify store or creating graphics for a campaign, the goal is the same: make the message clearer, the experience smoother, and the next step easier for customers.</p>
+            <a className="about-link" href="#contact">Have a project in mind? Let’s talk <ArrowUpRight size={16}/></a>
+          </div>
+        </div>
+        <div className="approach-row">
+          <div className="approach-intro"><span>HOW I THINK</span><b>Thoughtful work.<br/>Purposeful outcomes.</b></div>
+          <article className="approach-card"><span>01</span><h3>Understand</h3><p>Look at the store, its products and the people it needs to serve.</p></article>
+          <article className="approach-card"><span>02</span><h3>Identify</h3><p>Find friction in the shopping journey and opportunities to communicate better.</p></article>
+          <article className="approach-card"><span>03</span><h3>Improve</h3><p>Make considered changes that support a clearer path from discovery to purchase.</p></article>
+        </div>
+      </section>
       <div id="work" className="anchor-marker"/>
       <div id="contact" className="anchor-marker"/>
     </main>
