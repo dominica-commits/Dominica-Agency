@@ -68,7 +68,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="focus-strip" id="services">
+      <section className="focus-strip">
         <div className="focus-label">MY CORE FOCUS</div>
         <div className="focus-item"><span>01</span><b>Shopify CRO</b><small>Improve the path to purchase</small></div>
         <div className="focus-divider"/>
@@ -95,7 +95,66 @@ export default function Home() {
           <article className="approach-card"><span>03</span><h3>Improve</h3><p>Make considered changes that support a clearer path from discovery to purchase.</p></article>
         </div>
       </section>
-      <div id="work" className="anchor-marker"/>
+      <section className="services-section" id="services">
+        <div className="services-top">
+          <div>
+            <div className="section-kicker"><span/> WHAT I CAN HELP WITH</div>
+            <h2>Focused services for <em>eCommerce growth.</em></h2>
+          </div>
+          <p className="services-intro">Two complementary services, one clear purpose: help your store communicate better and make it easier for customers to buy.</p>
+        </div>
+        <div className="service-cards">
+          <article className="service-card service-primary">
+            <div className="service-card-top"><span>01 / PRIMARY SERVICE</span><span className="service-symbol">↗</span></div>
+            <div className="service-visual"><img src="/shopify-cro-visual.svg" alt="Illustrative Shopify storefront and conversion review visual"/></div>
+            <h3>Shopify Conversion Rate Optimisation</h3>
+            <p className="service-summary">Make the shopping journey clearer and remove avoidable friction, so more visitors can move towards a confident purchase.</p>
+            <div className="service-includes">
+              <span>WHAT THIS CAN INCLUDE</span>
+              <ul>
+                <li>Store and conversion-focused audits</li>
+                <li>Homepage and product page improvements</li>
+                <li>Navigation and customer journey review</li>
+                <li>Shopping experience and usability improvements</li>
+                <li>Clearer calls to action and trust elements</li>
+              </ul>
+            </div>
+            <a href="#contact" className="service-link">Discuss your Shopify store <ArrowUpRight size={16}/></a>
+          </article>
+          <article className="service-card service-secondary">
+            <div className="service-card-top"><span>02 / SECONDARY SERVICE</span><span className="service-symbol">✳</span></div>
+            <div className="service-visual"><img src="/ecommerce-graphics-visual.svg" alt="Illustrative eCommerce campaign banner and product graphic design visual"/></div>
+            <h3>eCommerce Graphic Design</h3>
+            <p className="service-summary">Create purposeful visuals that make products stand out, communicate offers clearly and keep your store looking consistent.</p>
+            <div className="service-includes">
+              <span>WHAT THIS CAN INCLUDE</span>
+              <ul>
+                <li>Website banners and hero graphics</li>
+                <li>Promotional and sale campaign graphics</li>
+                <li>Homepage and collection visuals</li>
+                <li>Product-focused marketing graphics</li>
+                <li>Consistent visual direction for your store</li>
+              </ul>
+            </div>
+            <a href="#contact" className="service-link">Plan your store visuals <ArrowUpRight size={16}/></a>
+          </article>
+        </div>
+        <p className="services-note">Not sure what your store needs first? Tell me what you’re working towards and we can start with the right conversation.</p>
+      </section>
+      <section className="work-section" id="work">
+        <div className="section-kicker"><span/> SELECTED AREAS OF WORK</div>
+        <div className="work-heading-row"><h2>Work that brings <em>ideas to life.</em></h2><p>A look at the kinds of projects I work on across Shopify and eCommerce design.</p></div>
+        <div className="work-grid">
+          <article className="work-card work-wide"><img src="/shopify-cro-visual.svg" alt="Illustrative Shopify storefront design preview"/><div><span>01 / SHOPIFY</span><h3>Store experience &amp; CRO</h3><p>Store reviews, customer journey improvements and conversion-focused page refinements.</p></div></article>
+          <article className="work-card"><img src="/ecommerce-graphics-visual.svg" alt="Illustrative eCommerce graphics preview"/><div><span>02 / GRAPHIC DESIGN</span><h3>Campaign &amp; store graphics</h3><p>Promotional banners, homepage visuals and product-led creative assets.</p></div></article>
+        </div>
+        <p className="work-note">These are visual service illustrations, not client project screenshots. Real project examples can be added here as the portfolio gallery is assembled.</p>
+      </section>
+      <section className="contact-section" id="contact">
+        <div className="section-kicker"><span/> LET’S CREATE SOMETHING BETTER</div>
+        <div className="contact-grid"><div><p className="section-overline">HAVE A PROJECT IN MIND?</p><h2>Let’s make your store <em>work harder.</em></h2></div><div className="contact-copy"><p>Whether you need a clearer Shopify shopping experience or thoughtful graphics for your store, I’d love to hear what you’re building.</p><a className="contact-email" href="mailto:obiefunadominica@gmail.com">obiefunadominica@gmail.com <ArrowUpRight size={17}/></a><a className="contact-whatsapp" href="https://wa.me/2348051469197" target="_blank" rel="noreferrer">Start a WhatsApp conversation <ArrowUpRight size={16}/></a><a className="contact-linkedin" href="https://www.linkedin.com/in/obiefuna-dominica-74b327396/" target="_blank" rel="noreferrer">Connect on LinkedIn <ArrowUpRight size={16}/></a></div></div>
+      </section>
+      <footer className="site-footer"><a className="wordmark" href="#top"><span className="wordmark-mark">OC</span><span className="wordmark-name">Obiefuna Chinaecherem</span></a><span>SHOPIFY CRO · ECOMMERCE GRAPHIC DESIGN</span><span>© {new Date().getFullYear()} OBIEFUNA CHINAECHEREM</span></footer>
       <div id="contact" className="anchor-marker"/>
     </main>
   );
