@@ -25,7 +25,7 @@ export default function Home() {
       <section className="hero">
         <div className="hero-main">
           <div className="hero-copy">
-            <div className="eyebrow"><span className="eyebrow-rule"/> SHOPIFY CRO · GRAPHIC DESIGN</div>
+            <div className="eyebrow"><span className="eyebrow-rule"/> SHOPIFY CRO · GOOGLE MERCHANT CENTER · SOCIAL MEDIA</div>
             <p className="hero-pretitle">A thoughtful approach to eCommerce growth.</p>
             <h1>Shopify Conversion Rate Optimisation Expert <em>&amp; Graphic Designer.</em></h1>
             <p className="hero-description">
@@ -73,6 +73,10 @@ export default function Home() {
         <div className="focus-item"><span>01</span><b>Shopify CRO</b><small>Improve the path to purchase</small></div>
         <div className="focus-divider"/>
         <div className="focus-item"><span>02</span><b>eCommerce Graphics</b><small>Make every visual work harder</small></div>
+        <div className="focus-divider"/>
+        <div className="focus-item"><span>03</span><b>Google Merchant Center</b><small>Product visibility &amp; feed health</small></div>
+        <div className="focus-divider"/>
+        <div className="focus-item"><span>04</span><b>Social Media Management</b><small>Consistent brand presence</small></div>
       </section>
       <section className="about-section" id="approach">
         <div className="section-kicker"><span/> A LITTLE ABOUT MY WORK</div>
@@ -101,7 +105,7 @@ export default function Home() {
             <div className="section-kicker"><span/> WHAT I CAN HELP WITH</div>
             <h2>Focused services for <em>eCommerce growth.</em></h2>
           </div>
-          <p className="services-intro">Two complementary services, one clear purpose: help your store communicate better and make it easier for customers to buy.</p>
+          <p className="services-intro">Four connected services to strengthen your store, improve product visibility, and build a more consistent online presence.</p>
         </div>
         <div className="service-cards">
           <article className="service-card service-primary">
@@ -138,6 +142,40 @@ export default function Home() {
             </div>
             <a href="#contact" className="service-link">Plan your store visuals <ArrowUpRight size={16}/></a>
           </article>
+          <article className="service-card service-secondary">
+            <div className="service-card-top"><span>03 / GOOGLE MERCHANT CENTER</span><span className="service-symbol">↗</span></div>
+            <div className="service-visual"><img src="/google-merchant-visual.svg" alt="Google Merchant Center product listings and feed management visual"/></div>
+            <h3>Google Merchant Center</h3>
+            <p className="service-summary">Help your products appear accurately across Google Shopping by improving Merchant Center setup, product data and account health.</p>
+            <div className="service-includes">
+              <span>WHAT THIS CAN INCLUDE</span>
+              <ul>
+                <li>Merchant Center setup and configuration</li>
+                <li>Product feed review and optimisation</li>
+                <li>Product disapproval troubleshooting</li>
+                <li>Policy and account issue checks</li>
+                <li>Shopify and Merchant Center connection support</li>
+              </ul>
+            </div>
+            <a href="#contact" className="service-link">Discuss your Merchant Center <ArrowUpRight size={16}/></a>
+          </article>
+          <article className="service-card service-primary">
+            <div className="service-card-top"><span>04 / SOCIAL MEDIA MANAGEMENT</span><span className="service-symbol">✳</span></div>
+            <div className="service-visual"><img src="/social-media-visual.svg" alt="Social media content planning and management visual"/></div>
+            <h3>Social Media Management</h3>
+            <p className="service-summary">Build a more consistent social presence with thoughtful content planning, publishing and community engagement.</p>
+            <div className="service-includes">
+              <span>WHAT THIS CAN INCLUDE</span>
+              <ul>
+                <li>Content planning and scheduling</li>
+                <li>Social media page management</li>
+                <li>Captions and post copywriting</li>
+                <li>Community engagement and responses</li>
+                <li>Basic performance monitoring</li>
+              </ul>
+            </div>
+            <a href="#contact" className="service-link">Plan your social presence <ArrowUpRight size={16}/></a>
+          </article>
         </div>
         <p className="services-note">Not sure what your store needs first? Tell me what you’re working towards and we can start with the right conversation.</p>
       </section>
@@ -154,7 +192,7 @@ export default function Home() {
         <div className="section-kicker"><span/> LET’S CREATE SOMETHING BETTER</div>
         <div className="contact-grid"><div><p className="section-overline">HAVE A PROJECT IN MIND?</p><h2>Let’s make your store <em>work harder.</em></h2></div><div className="contact-copy"><p>Whether you need a clearer Shopify shopping experience or thoughtful graphics for your store, I’d love to hear what you’re building.</p><a className="contact-email" href="mailto:obiefunadominica@gmail.com">obiefunadominica@gmail.com <ArrowUpRight size={17}/></a><a className="contact-whatsapp" href="https://wa.me/2348051469197" target="_blank" rel="noreferrer">Start a WhatsApp conversation <ArrowUpRight size={16}/></a><a className="contact-linkedin" href="https://www.linkedin.com/in/obiefuna-dominica-74b327396/" target="_blank" rel="noreferrer">Connect on LinkedIn <ArrowUpRight size={16}/></a></div></div>
       </section>
-      <footer className="site-footer"><a className="wordmark" href="#top"><span className="wordmark-mark">OC</span><span className="wordmark-name">Obiefuna Chinaecherem</span></a><span>SHOPIFY CRO · ECOMMERCE GRAPHIC DESIGN</span><span>© {new Date().getFullYear()} OBIEFUNA CHINAECHEREM</span></footer>
+      <footer className="site-footer"><a className="wordmark" href="#top"><span className="wordmark-mark">OC</span><span className="wordmark-name">Obiefuna Chinaecherem</span></a><span>SHOPIFY CRO · ECOMMERCE GRAPHICS · GOOGLE MERCHANT CENTER · SOCIAL MEDIA</span><span>© {new Date().getFullYear()} OBIEFUNA CHINAECHEREM</span></footer>
       <div id="contact" className="anchor-marker"/>
     </main>
   );
