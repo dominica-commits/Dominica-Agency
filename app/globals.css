@@ -88,3 +88,42 @@ h1{font-family:'Manrope',sans-serif;font-size:clamp(57px,6.7vw,91px);line-height
 .site-footer>span{font-size:7px;letter-spacing:1.3px}
 @media(max-width:850px){.services-top,.work-heading-row{align-items:start;flex-direction:column;gap:18px}.service-cards{grid-template-columns:1fr}.service-card{padding:25px}.service-visual{height:230px}.work-grid{grid-template-columns:1fr 1fr}.contact-grid{gap:7%}}
 @media(max-width:640px){.services-section,.work-section,.contact-section{padding:72px 6%}.services-top h2,.work-heading-row h2,.contact-grid h2{font-size:43px;letter-spacing:-2.4px}.service-card{padding:21px}.service-card h3{font-size:22px}.service-visual{height:190px;margin:16px 0 21px}.service-includes ul{grid-template-columns:1fr;gap:9px}.work-grid{grid-template-columns:1fr}.work-card img{height:205px}.contact-grid{grid-template-columns:1fr;gap:30px;margin-top:30px}.site-footer{padding:24px 6%;flex-wrap:wrap}.site-footer>span{font-size:6px}}
+
+
+/* Dark-first visual direction */
+:root{--paper:#101010;--ink:#f7f3f1;--muted:#b7adaa;--line:#34302f;--coral:#E49182;--coral-deep:#E99A8C}
+html,body{background:#101010;color:#f7f3f1}
+.site-header{background:rgba(16,16,16,.97);border-color:#34302f;color:#f7f3f1}
+.wordmark-mark{background:var(--coral);color:#111}
+.wordmark-name,.desktop-nav a,.button-text{color:#f7f3f1}
+.desktop-nav a{color:#c5bcba}
+.hero{background:#101010}
+.hero-pretitle,.hero-description,.hero-proof,.scroll-label,.hero-location{color:#bdb4b1}
+.hero-bottom{border-color:#34302f}
+.hero-bottom-line{background:#34302f}
+.button-dark{background:var(--coral);color:#111}
+.button-dark:hover{background:#f0ad9f}
+.focus-strip{background:#050505}
+.about-section{background:#151414;color:#f7f3f1}
+.about-copy p,.about-copy .about-lead,.approach-card p{color:#bcb3b0}
+.approach-row{border-color:#393332}
+.approach-card{border-color:#393332}
+.services-section{background:#101010;color:#f7f3f1}
+.service-primary{background:#201d1c;color:#fff;border:1px solid #403633}
+.service-secondary{background:#171615;color:#f7f3f1;border:1px solid #403633}
+.service-secondary .service-summary,.service-secondary .service-includes li{color:#c2b9b6}
+.service-secondary .service-includes{border-color:#403633}
+.service-includes{border-color:#403633}
+.service-includes li{color:#ded6d3}
+.work-section{background:#151414;color:#f7f3f1}
+.work-card{background:#201d1c;border:1px solid #393332}
+.work-card p,.work-heading-row>p{color:#c2b9b6}
+.contact-section{background:#101010;color:#f7f3f1}
+.contact-copy p,.contact-whatsapp,.contact-linkedin{color:#c2b9b6}
+.contact-email,.contact-whatsapp,.contact-linkedin{border-color:#403633}
+.services-note,.work-note{color:#aaa09c}
+.site-footer{background:#050505;border-top:1px solid #34302f}
+.floating-note{background:#201d1c;color:#e7ddda}
+.floating-note b{color:#fff}
+.portrait-card{background:#27201e}
+@media(max-width:640px){.focus-strip{grid-template-columns:1fr 1fr}.focus-item b{font-size:11px}}
