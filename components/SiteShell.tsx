@@ -1,0 +1,6 @@
+import Link from "next/link";
+import { ArrowUpRight, Menu } from "lucide-react";
+const links=[["Home","/"],["About","/about"],["Services","/services"],["Portfolio","/portfolio"],["Contact","/contact"]];
+export function SiteHeader(){return <header className="site-header"><Link className="wordmark" href="/"><span className="wordmark-mark">OC</span><span className="wordmark-name">Obiefuna Chinaecherem</span></Link><nav className="desktop-nav" aria-label="Main navigation">{links.map(([label,url])=><Link key={url} href={url}>{label}</Link>)}</nav><Link className="header-cta" href="/contact">Let&apos;s talk <ArrowUpRight size={16}/></Link><Link className="mobile-menu" href="/contact" aria-label="Contact"><Menu size={23}/></Link></header>}
+export function SiteFooter(){return <footer className="site-footer"><Link className="wordmark" href="/"><span className="wordmark-mark">OC</span><span className="wordmark-name">Obiefuna Chinaecherem</span></Link><span>SHOPIFY CRO · ECOMMERCE GRAPHICS · GOOGLE MERCHANT CENTER · SOCIAL MEDIA</span><span>© {new Date().getFullYear()} OBIEFUNA CHINAECHEREM</span></footer>}
+export function PageIntro({eyebrow,title,lead}:{eyebrow:string,title:React.ReactNode,lead:string}){return <section className="inner-hero"><p className="section-kicker"><span/>{eyebrow}</p><h1>{title}</h1><p className="inner-lead">{lead}</p></section>}
