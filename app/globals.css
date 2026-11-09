@@ -180,3 +180,26 @@ body{font-size:16px}
 .shopify-steps{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.shopify-steps article{padding:27px;border:1px solid #403633;background:#191716}.shopify-steps article>b{font-size:12px;letter-spacing:1.5px;color:var(--coral)}.shopify-steps h3{font:800 23px/1.25 Manrope,sans-serif;color:#fff;margin:18px 0 10px}.shopify-steps p{font-size:16px;line-height:1.8;color:#d2c9c6;margin:0}.shopify-note{font-size:12px;line-height:1.7;color:#aaa09c;margin:20px 0 0}
 @media(max-width:850px){.site-footer{flex-wrap:wrap}.footer-social{order:3;width:100%}.shopify-steps{grid-template-columns:1fr}}
 @media(max-width:640px){.shopify-case{padding:60px 6%}.shopify-case-copy h2{font-size:37px}.shopify-case-copy>p:last-child{font-size:16px}.shopify-proof{padding:22px}.shopify-proof strong{font-size:21px}.shopify-steps article{padding:22px}.shopify-steps h3{font-size:21px}.shopify-steps p{font-size:15px}.review-card blockquote{font-size:16px}.footer-social a{font-size:13px}}
+
+/* Personal about story: prominent portrait and strong, readable story typography */
+.about-story{padding:88px 7.1%;display:grid;grid-template-columns:.82fr 1.18fr;gap:8%;align-items:center;background:#151414}
+.about-story-photo{position:relative;max-width:480px;width:100%;padding:0 22px 22px 0}
+.about-story-photo:before{content:"";position:absolute;inset:24px 0 0 28px;background:var(--coral)}
+.about-story-photo img{position:relative;display:block;width:100%;height:570px;object-fit:cover;object-position:center 24%;filter:brightness(1.12) contrast(1.05) saturate(1.03)}
+.about-photo-caption{position:absolute;left:0;right:22px;bottom:22px;padding:38px 22px 18px;background:linear-gradient(transparent,rgba(0,0,0,.82));display:flex;flex-direction:column;gap:6px}
+.about-photo-caption b{font:800 14px Manrope,sans-serif;letter-spacing:.6px;color:#fff}
+.about-photo-caption span{font-size:10px;letter-spacing:1.4px;color:#f2c5bb}
+.about-story-copy h2{font:800 clamp(39px,4.6vw,59px)/1.1 Manrope,sans-serif;letter-spacing:-2.4px;color:#fff;margin:22px 0}
+.about-story-copy h2 em,.about-values h2 em{font-family:'Playfair Display',serif;color:var(--coral);font-weight:500}
+.about-story-copy p:not(.section-kicker){font-size:17px;line-height:1.9;color:#d2c9c6;margin:0 0 18px}
+.about-story-copy .story-lead{font-size:21px!important;line-height:1.7!important;font-weight:700;color:#fff!important}
+.about-story-link{display:inline-flex;align-items:center;gap:10px;margin-top:13px;padding-bottom:9px;border-bottom:1px solid var(--coral);font-size:15px;font-weight:800;color:#fff}
+.about-values{padding:80px 7.1%;background:#101010;border-top:1px solid #393332}
+.about-values h2{font:800 clamp(36px,4vw,52px)/1.12 Manrope,sans-serif;letter-spacing:-2px;color:#fff;margin:22px 0 35px}
+.about-values-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.about-values-grid article{padding:28px;border:1px solid #403633;background:#191716}
+.about-values-grid article>span{font-size:13px;letter-spacing:2px;color:var(--coral);font-weight:800}
+.about-values-grid h3{font:800 23px/1.25 Manrope,sans-serif;color:#fff;margin:20px 0 10px}
+.about-values-grid p{font-size:16px;line-height:1.8;color:#d2c9c6;margin:0}
+@media(max-width:850px){.about-story{grid-template-columns:1fr;gap:38px}.about-story-photo{max-width:460px;margin:0 auto}.about-story-photo img{height:520px}}
+@media(max-width:640px){.about-story{padding:60px 6%;gap:34px}.about-story-photo{max-width:355px;padding-right:16px;padding-bottom:16px}.about-story-photo:before{left:20px;top:18px}.about-story-photo img{height:420px}.about-photo-caption{right:16px;bottom:16px;padding:30px 15px 14px}.about-photo-caption b{font-size:12px}.about-photo-caption span{font-size:8px}.about-story-copy h2{font-size:39px;letter-spacing:-1.7px}.about-story-copy p:not(.section-kicker){font-size:15px;line-height:1.85}.about-story-copy .story-lead{font-size:18px!important}.about-values{padding:60px 6%}.about-values h2{font-size:36px}.about-values-grid{grid-template-columns:1fr;gap:13px}.about-values-grid article{padding:23px}.about-values-grid h3{font-size:21px}.about-values-grid p{font-size:15px}}
