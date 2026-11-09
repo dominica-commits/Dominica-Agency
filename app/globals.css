@@ -212,3 +212,8 @@ body{font-size:16px}
 .portfolio-grid article h2{font-size:clamp(24px,2.6vw,32px);line-height:1.2;margin:14px 0}
 .portfolio-grid article p{font-size:16px;line-height:1.75;color:#d2c9c6}
 @media(max-width:640px){.portfolio-grid article>img{height:230px}.portfolio-grid article>div{padding:21px}.portfolio-grid article p{font-size:15px}}
+
+/* Service page: clear, consistent real-photo presentation */
+.service-page-card>img{height:430px;object-fit:cover;object-position:center;border:1px solid #403633}
+@media(max-width:850px){.service-page-card>img{height:320px}}
+@media(max-width:640px){.service-page-card>img{height:240px}}
